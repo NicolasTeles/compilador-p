@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "id": "node_1792172240576_00xssrarg",
+      "x": 196.79998779296875,
+      "y": 308.5,
+      "text": "q0",
+      "isAcceptState": false
+    },
+    {
+      "id": "node_1792172258603_4k31nyws8",
+      "x": 323.79998779296875,
+      "y": 306.5,
+      "text": "qAberto",
+      "isAcceptState": false
+    },
+    {
+      "id": "node_1792172289736_8kgitr78d",
+      "x": 481.79998779296875,
+      "y": 306.5,
+      "text": "qCharEscrito",
+      "isAcceptState": false
+    },
+    {
+      "id": "node_1792172359792_zmjwj87oj",
+      "x": 634.7999877929688,
+      "y": 307.5,
+      "text": "charFinalizado",
+      "isAcceptState": true
+    }
+  ],
+  "links": [
+    {
+      "id": "link_1792172245450_8xds3h4ho",
+      "text": "start",
+      "type": "StartLink",
+      "node": {
+        "id": "node_1792172240576_00xssrarg",
+        "x": 196.79998779296875,
+        "y": 308.5
+      },
+      "deltaX": -46,
+      "deltaY": 0
+    },
+    {
+      "id": "link_1792172265835_9o1qtxu6s",
+      "text": "[']",
+      "type": "Link",
+      "nodeA": {
+        "id": "node_1792172240576_00xssrarg",
+        "x": 196.79998779296875,
+        "y": 308.5
+      },
+      "nodeB": {
+        "id": "node_1792172258603_4k31nyws8",
+        "x": 323.79998779296875,
+        "y": 306.5
+      },
+      "lineAngleAdjust": 0,
+      "parallelPart": 0.5,
+      "perpendicularPart": 0
+    },
+    {
+      "id": "link_1792172310800_2misnu7jf",
+      "text": "[charsExceto{'}e{\\n}]",
+      "type": "Link",
+      "nodeA": {
+        "id": "node_1792172258603_4k31nyws8",
+        "x": 323.79998779296875,
+        "y": 306.5
+      },
+      "nodeB": {
+        "id": "node_1792172289736_8kgitr78d",
+        "x": 481.79998779296875,
+        "y": 306.5
+      },
+      "lineAngleAdjust": 0,
+      "parallelPart": 0.5,
+      "perpendicularPart": 0
+    },
+    {
+      "id": "link_1792172367380_ehyy0vm01",
+      "text": "[']",
+      "type": "Link",
+      "nodeA": {
+        "id": "node_1792172289736_8kgitr78d",
+        "x": 481.79998779296875,
+        "y": 306.5
+      },
+      "nodeB": {
+        "id": "node_1792172359792_zmjwj87oj",
+        "x": 634.7999877929688,
+        "y": 307.5
+      },
+      "lineAngleAdjust": 0,
+      "parallelPart": 0.5,
+      "perpendicularPart": 0
+    }
+  ],
+  "timestamp": "2026-10-16T17:39:36.341Z"
+}

@@ -1,0 +1,112 @@
+{
+  "nodes": [
+    {
+      "id": "node_1792172443437_ef18uzjhi",
+      "x": 192.79998779296875,
+      "y": 350.5,
+      "text": "q0",
+      "isAcceptState": false
+    },
+    {
+      "id": "node_1792172464688_sw0nety54",
+      "x": 349.79998779296875,
+      "y": 350.5,
+      "text": "stringAberta",
+      "isAcceptState": false
+    },
+    {
+      "id": "node_1792172487569_oh7yaq72t",
+      "x": 530.7999877929688,
+      "y": 351.5,
+      "text": "stringEscrita",
+      "isAcceptState": false
+    },
+    {
+      "id": "node_1792172650548_qov8acigo",
+      "x": 684.7999877929688,
+      "y": 355.5,
+      "text": "qFinal",
+      "isAcceptState": true
+    }
+  ],
+  "links": [
+    {
+      "id": "link_1792172445395_q0krqvw7w",
+      "text": "start",
+      "type": "StartLink",
+      "node": {
+        "id": "node_1792172443437_ef18uzjhi",
+        "x": 192.79998779296875,
+        "y": 350.5
+      },
+      "deltaX": -50,
+      "deltaY": 0
+    },
+    {
+      "id": "link_1792172479773_f0lr8bcw6",
+      "text": "[\"]",
+      "type": "Link",
+      "nodeA": {
+        "id": "node_1792172443437_ef18uzjhi",
+        "x": 192.79998779296875,
+        "y": 350.5
+      },
+      "nodeB": {
+        "id": "node_1792172464688_sw0nety54",
+        "x": 349.79998779296875,
+        "y": 350.5
+      },
+      "lineAngleAdjust": 0,
+      "parallelPart": 0.5,
+      "perpendicularPart": 0
+    },
+    {
+      "id": "link_1792172607691_gjjd2cico",
+      "text": "[charExceto{\"}e{\\n}]",
+      "type": "Link",
+      "nodeA": {
+        "id": "node_1792172464688_sw0nety54",
+        "x": 349.79998779296875,
+        "y": 350.5
+      },
+      "nodeB": {
+        "id": "node_1792172487569_oh7yaq72t",
+        "x": 530.7999877929688,
+        "y": 351.5
+      },
+      "lineAngleAdjust": 0,
+      "parallelPart": 0.5,
+      "perpendicularPart": 0
+    },
+    {
+      "text": "[charExceto{\"}e{\\n}]",
+      "type": "SelfLink",
+      "node": {
+        "id": "node_1792172487569_oh7yaq72t",
+        "x": 530.7999877929688,
+        "y": 351.5
+      },
+      "anchorAngle": -1.4536875822280324,
+      "loopRadius": 1.5
+    },
+    {
+      "id": "link_1792172659447_18z9xd9jg",
+      "text": "[\"]",
+      "type": "Link",
+      "nodeA": {
+        "id": "node_1792172487569_oh7yaq72t",
+        "x": 530.7999877929688,
+        "y": 351.5
+      },
+      "nodeB": {
+        "id": "node_1792172650548_qov8acigo",
+        "x": 684.7999877929688,
+        "y": 355.5
+      },
+      "lineAngleAdjust": 0,
+      "parallelPart": 0.5,
+      "perpendicularPart": 0
+    }
+  ],
+  "timestamp": "2026-10-16T17:44:24.594Z"
+}

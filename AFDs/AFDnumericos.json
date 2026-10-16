@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    {
+      "id": "node_1792170530849_wa7uvm3rx",
+      "x": 337.8000030517578,
+      "y": 361.5,
+      "text": "qInt",
+      "isAcceptState": true
+    },
+    {
+      "id": "node_1792170591745_aqfcbiw0f",
+      "x": 481.8000030517578,
+      "y": 360.5,
+      "text": "q1",
+      "isAcceptState": false
+    },
+    {
+      "id": "node_1792170630926_ry6gzzzil",
+      "x": 611.8000030517578,
+      "y": 360.5,
+      "text": "qFloat",
+      "isAcceptState": true
+    },
+    {
+      "id": "node_1792171463816_71h8w9cyo",
+      "x": 220.79998779296875,
+      "y": 363.5,
+      "text": "q0",
+      "isAcceptState": false
+    }
+  ],
+  "links": [
+    {
+      "text": "[0-9]",
+      "type": "SelfLink",
+      "node": {
+        "id": "node_1792170530849_wa7uvm3rx",
+        "x": 337.8000030517578,
+        "y": 361.5
+      },
+      "anchorAngle": -1.5422326689561365,
+      "loopRadius": 1.5
+    },
+    {
+      "id": "link_1792170593571_btlnz95ue",
+      "text": "[.]",
+      "type": "Link",
+      "nodeA": {
+        "id": "node_1792170530849_wa7uvm3rx",
+        "x": 337.8000030517578,
+        "y": 361.5
+      },
+      "nodeB": {
+        "id": "node_1792170591745_aqfcbiw0f",
+        "x": 481.8000030517578,
+        "y": 360.5
+      },
+      "lineAngleAdjust": 0,
+      "parallelPart": 0.5,
+      "perpendicularPart": 0
+    },
+    {
+      "id": "link_1792170638426_eplkz5z7m",
+      "text": "[0-9]",
+      "type": "Link",
+      "nodeA": {
+        "id": "node_1792170591745_aqfcbiw0f",
+        "x": 481.8000030517578,
+        "y": 360.5
+      },
+      "nodeB": {
+        "id": "node_1792170630926_ry6gzzzil",
+        "x": 611.8000030517578,
+        "y": 360.5
+      },
+      "lineAngleAdjust": 0,
+      "parallelPart": 0.5,
+      "perpendicularPart": 0
+    },
+    {
+      "text": "[0-9]",
+      "type": "SelfLink",
+      "node": {
+        "id": "node_1792170630926_ry6gzzzil",
+        "x": 611.8000030517578,
+        "y": 360.5
+      },
+      "anchorAngle": -1.6233793884058383,
+      "loopRadius": 1.5
+    },
+    {
+      "id": "link_1792171467237_xcypfi8zb",
+      "text": "start",
+      "type": "StartLink",
+      "node": {
+        "id": "node_1792171463816_71h8w9cyo",
+        "x": 220.79998779296875,
+        "y": 363.5
+      },
+      "deltaX": -46,
+      "deltaY": 0
+    },
+    {
+      "id": "link_1792171479130_ubqbqkuoc",
+      "text": "[0-9]",
+      "type": "Link",
+      "nodeA": {
+        "id": "node_1792171463816_71h8w9cyo",
+        "x": 220.79998779296875,
+        "y": 363.5
+      },
+      "nodeB": {
+        "id": "node_1792170530849_wa7uvm3rx",
+        "x": 337.8000030517578,
+        "y": 361.5
+      },
+      "lineAngleAdjust": 0,
+      "parallelPart": 0.5,
+      "perpendicularPart": 0
+    }
+  ],
+  "timestamp": "2026-10-16T17:35:42.533Z"
+}
