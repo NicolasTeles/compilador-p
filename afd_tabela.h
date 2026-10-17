@@ -63,13 +63,13 @@ typedef enum {
 
 static int classificar(int c)
 {
-    if (c == EOF)                                   return C_EOF;
+    if (c == EOF) return C_EOF;
     if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) return C_LETRA;
-    if (c >= '0' && c <= '9')                       return C_DIGITO;
+    if (c >= '0' && c <= '9') return C_DIGITO;
 
     switch (c) {
-        case '_':  return C_UNDERSCORE;
-        case '.':  return C_PONTO;
+        case '_':return C_UNDERSCORE;
+        case '.':return C_PONTO;
         case ' ':
         case '\t':
         case '\r': return C_ESPACO;
